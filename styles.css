@@ -15,6 +15,22 @@ body {
     font-family: 'Varela Round', sans-serif;
 }
 
+@media screen and (max-width: 700px) {
+  .side-nav {
+    width: 100%;
+    height: auto;
+    position: relative;
+  }
+  .side-nav a {float: left;}
+  div.content {margin-left: 0;}
+}
+
+@media screen and (max-width: 400px) {
+  .side-nav a {
+    text-align: center;
+    float: none;
+  }
+}
 
 
 /* .footer{
